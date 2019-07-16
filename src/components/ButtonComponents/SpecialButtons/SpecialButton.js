@@ -10,4 +10,4 @@ const SpecialButton = () => {
 };
 
 
-export deafult SpecialButton;
+export default SpecialButton;

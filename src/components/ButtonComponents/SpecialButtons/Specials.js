@@ -32,4 +32,4 @@ const Specials = () => {
 };
 
 
-export deafult Specials; 
+export default Specials; 

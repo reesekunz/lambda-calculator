@@ -10,4 +10,4 @@ const OperatorButton = () => {
 };
 
 
-export deafult OperatorButton;
+export default OperatorButton;

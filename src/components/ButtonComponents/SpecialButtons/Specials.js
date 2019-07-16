@@ -1,8 +1,14 @@
-import React from "react";
+// Add , { useState } to existing React import code 
 
-//import any components needed
+import React, { useState } from "react";
 
-//Import your array data to from the provided data file
+//import any components needed (from SpecialButton.js)
+
+import SpecialButton from "./SpecialButton."
+
+//Import your array data to from the provided data file (from data.js exports)
+
+import { specials } from '../../../data'
 
 const Specials = () => {
   // STEP 2 - add the imported data to state

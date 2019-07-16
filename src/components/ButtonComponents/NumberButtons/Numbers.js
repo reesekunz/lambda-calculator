@@ -1,11 +1,12 @@
+// Add , { useState } to existing React import code 
 
 import React, { useState } from "react";
 
-//import any components needed
+//import any components needed (from NumberButton.js)
 
 import NumberButton from "./NumberButton."
 
-//Import your array data to from the provided data file
+//Import your array data to from the provided data file (from data.js exports)
 
 import { numbers } from '../../../data'
 

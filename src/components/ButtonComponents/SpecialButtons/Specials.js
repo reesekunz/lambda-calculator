@@ -16,12 +16,17 @@ const Specials = () => {
 
   const [specials, setSpecials] = useState(specials);
 
+ /* STEP 3 - Use .map() to iterate over your array data and return a button
+ component matching the name on the provided file. Pass
+ it any props needed by the child component*/
 
   return (
     <div>
-      {/* STEP 3 - Use .map() to iterate over your array data and return a button
-       component matching the name on the provided file. Pass
-       it any props needed by the child component*/}
+      {special.map((special) => { 
+          return (
+            <SpecialButton special={special}/>
+        )
+        })}
     </div>
   );
 };

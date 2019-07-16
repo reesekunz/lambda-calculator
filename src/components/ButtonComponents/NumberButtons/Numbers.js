@@ -13,6 +13,9 @@ import { numbers } from '../../../data'
 const Numbers = () => {
   // STEP 2 - add the imported data to state
 
+  const [numbers, setNumbers] = useState(numbers);
+
+
  
   return (
     <div>

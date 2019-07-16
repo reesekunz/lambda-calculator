@@ -25,3 +25,5 @@ const Operators = () => {
     </div>
   );
 };
+
+export deafult OperatorButton;

@@ -25,3 +25,6 @@ const Specials = () => {
     </div>
   );
 };
+
+
+export deafult SpecialButton; 

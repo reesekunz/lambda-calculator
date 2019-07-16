@@ -12,6 +12,7 @@ import { specials } from '../../../data'
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
+   //make sure whatever is inside useState() is consistent with array data imported above 
 
   const [specials, setSpecials] = useState(specials);
 

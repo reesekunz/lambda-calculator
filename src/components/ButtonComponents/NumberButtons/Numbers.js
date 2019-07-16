@@ -12,6 +12,7 @@ import { numbers } from '../../../data'
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
+ //make sure whatever is inside useState() is consistent with array data imported above 
 
   const [numbers, setNumbers] = useState(numbers);
 
@@ -25,3 +26,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default NumberButton;

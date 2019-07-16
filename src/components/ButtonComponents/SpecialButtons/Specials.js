@@ -22,7 +22,7 @@ const Specials = () => {
 
   return (
     <div>
-      {special.map((special) => { 
+      {specials.map((special) => { 
           return (
             <SpecialButton special={special}/>
         )

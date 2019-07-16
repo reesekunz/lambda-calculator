@@ -32,4 +32,4 @@ const Specials = () => {
 };
 
 
-export deafult SpecialButton; 
+export deafult Specials; 

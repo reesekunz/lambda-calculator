@@ -9,4 +9,4 @@ const NumberButton = (props) => {
   );
 };
 
-export default Numbers;
+export default NumberButton;

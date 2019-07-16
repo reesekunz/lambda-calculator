@@ -28,4 +28,4 @@ const Operators = () => {
   );
 };
 
-export deafult OperatorButton;
+export deafult Operators;

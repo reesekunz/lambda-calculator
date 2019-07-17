@@ -31,7 +31,7 @@ const operators = [
 
 const specials = ["C", "+/-", "%"];
 
-// export each array being imported into 
+// export each array being imported into
 // Numbers.js, Specials.js and Operators.js files (these are the wrapper components)
 
-export {numbers, operators, specials};
+export { numbers, operators, specials };

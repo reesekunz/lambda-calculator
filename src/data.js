@@ -4,12 +4,9 @@
 // file. No real tricks here just be aware of what is in each array
 // and how you'll access the data.
 
-// add export in front of each array being imported into 
-// Numbers.js, Specials.js and Operators.js files (these are the wrapper components)
+const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
 
-export const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
-
-export const operators = [
+const operators = [
   {
     char: "/",
     value: "/"
@@ -32,4 +29,9 @@ export const operators = [
   }
 ];
 
-export const specials = ["C", "+/-", "%"];
+const specials = ["C", "+/-", "%"];
+
+// export each array being imported into 
+// Numbers.js, Specials.js and Operators.js files (these are the wrapper components)
+
+export {numbers, operators, specials};
